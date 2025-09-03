@@ -177,6 +177,7 @@ body {
     margin: 0 auto;
 }
 
+/* Education Section */
 .education {
     background: white;
     padding: 2rem;
@@ -196,23 +197,32 @@ body {
     font-size: 1.8rem;
 }
 
-.education p {
+/* Individual degree items */
+.edu-item {
+    margin-bottom: 1.5rem; /* spacing between degrees */
+}
+
+.edu-item p {
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
 }
 
-.education p:nth-child(2) {
+/* Degree name */
+.edu-item p:nth-child(1) {
     font-weight: 600;
 }
 
-.education p:nth-child(3) {
+/* University name */
+.edu-item p:nth-child(2) {
     color: var(--secondary-color);
     font-weight: 500;
 }
 
-.education p:nth-child(4) {
+/* Year */
+.edu-item p:nth-child(3) {
     color: #666;
 }
+
 
 .skills {
     max-width: 1200px;
